@@ -2,7 +2,9 @@
 
 ## Project: Dynamic Surface Tension - Ward-Tordai Model Implementation
 
-### Initial Setup - [Date TBD]
+### Initial Setup - [October 7th 2025]
+### Author - Max Hermann Peters
+### Affiliation - TU Berlin, Molekulare Materialwissenschaften
 
 #### Project Initialization
 - Created basic project structure for Ward-Tordai model implementation

@@ -8,6 +8,7 @@ The Ward-Tordai equation is a fundamental model in colloid and interface science
 - Numerical solution of the Ward-Tordai integral equation
 - Fitting experimental surface tension data to theoretical models
 - Analyzing dynamic surface tension measurements
+- Looking for possible extensions of the Ward Tordai Model to take ad-/desorption barriers into account
 
 ## Project Structure
 
@@ -197,4 +198,13 @@ Check `devlog.md` for development history and planned features.
 
 ## Contact
 
-[Add contact information]
+Max Hermann Peters
+E-Mail: peters@tu-berlin.de
+Technische Universitaet Berlin
+Studentischer Mitarbeiter bei Prof. Dr. Michael Gradzielski
+Stranski-Laboratorium für Theoretische und Physikalische Chemie
+Insitut für Chemie
+Gebäude K
+Raum K002
+Hardenbergstraße 36
+10623 Berlin, Germany
