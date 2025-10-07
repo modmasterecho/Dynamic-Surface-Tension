@@ -21,7 +21,25 @@ This document collects ideas and suggestions for improving the surface tension m
 - **Suggestion**: Add a feature to export the capillary diameter calibration fit instead of the calibration data
 - **Alternative**: Make the capillary diameter a constant value and calculate the data accordingly
 
-### 3. Error Detection (example)
+### 2. Data availability
+- **Current Issue**: Poor readability of the measurement data for further processing with Python, Excel, Origin etc.
+- **Suggestion**: Keep the formatting of the exported data as simple as possible
+- **Benefits**: Making the processing of measurement data easier and therefore increasing user compliance
+- **Example solution**: Use Comma Separated Values without any spacing or additional headlines other than quantity and unit, put both into one cell of the tabular. Don't use Tabulators, back-/frontslashed etc. as a separator. Store Metadata in a second file OR as a json-formated string as part of the last column header. The metadata can then be easily read by any parser knowing about the format and could split the header at the last column (e.g. in Python row[ -1 ]). Also store dates in ISO8601 format:
+bubble life time[ ms ];SFT;bubble life time[ ms ];exp#{"timeanddate": "2025-10-07 15:45:18"}
+100.00;0.30;100.00;0.29
+90.00;0.25;90.00;0.26
+
+### 3. Data readability
+- **Current Issue**: The current Headers in exported data make it hard to distinguish values from each other and the language switches between English and German in Headers("Min Pressure" "Oberflächenalter")
+- **Suggestion**: Use English as standard language and avoid redundant headers as well as uncommon abbreviations for quantities
+- **Benefits**: Faster understanding of raw datasets for the user 
+
+### 4. Standartize everything
+- **Current Issue**: Some Exported Files use "," as decimal delimiter, others use "." as decimal delimiter, other things are also not standartized
+-  **Suggestion**: Use "." as decimal delimiter.
+
+### 5. Error Detection (example)
 - **Suggestion**: Add anomaly detection algorithms
 - **Features Needed**:
   - Outlier identification
@@ -91,4 +109,4 @@ Please add new suggestions with:
 
 ---
 
-*Last Updated: [Date TBD]*
+*Last Updated: [2025-10-07 18:49]*
