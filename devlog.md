@@ -20,6 +20,13 @@
 
 ### Future Development
 
+#### To Do
+
+- [x] Find calibration fit
+- [ ] Reproduce Stevenson calculations on paper
+- [ ] Understand Pseudocode by Stevenson
+- [ ] Convert Measurement data properly
+
 #### Planned Features
 - [ ] Implement numerical integration for Ward-Tordai equation
 - [ ] Add support for different surfactant types

@@ -35,7 +35,7 @@ bubble life time[ ms ];SFT;bubble life time[ ms ];exp#{"timeanddate": "2025-10-0
 - **Suggestion**: Use English as standard language and avoid redundant headers as well as uncommon abbreviations for quantities
 - **Benefits**: Faster understanding of raw datasets for the user 
 
-### 4. Standartize everything
+### 4. Standartize *everything*
 - **Current Issue**: Some Exported Files use "," as decimal delimiter, others use "." as decimal delimiter, other things are also not standartized
 -  **Suggestion**: Use "." as decimal delimiter.
 
