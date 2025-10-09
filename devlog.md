@@ -23,9 +23,14 @@
 #### To Do
 
 - [x] Find calibration fit
-- [ ] Reproduce Stevenson calculations on paper
-- [ ] Understand Pseudocode by Stevenson
-- [ ] Convert Measurement data properly
+- [x] Reproduce Stevenson calculations on paper
+- [x] Understand Pseudocode by Stevenson
+- [x] Convert Measurement data properly
+- [x] Convert C++ Code into Python Code
+    - Note: The code has not been reviewed yet. The test gave false values even though the curvature looked okay. The Issue most likely lies somewhere in the units (see Copilot Notes).
+- [ ] Review converted code and test with simulation data
+- [ ] Implement fit
+- [ ] Fit Data!
 
 #### Planned Features
 - [ ] Implement numerical integration for Ward-Tordai equation

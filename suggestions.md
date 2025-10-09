@@ -86,6 +86,8 @@ bubble life time[ ms ];SFT;bubble life time[ ms ];exp#{"timeanddate": "2025-10-0
 - **Suggestion**: Enable processing of multiple datasets simultaneously
 - **Benefit**: Faster analysis of large experimental campaigns
 
+### 4. Provide a Set of Testing data with well known parameters to test simulation models 
+
 ---
 
 
